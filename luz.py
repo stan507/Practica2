@@ -1,5 +1,5 @@
 class luz (object):
-    def __init__(self, intensidad,x,y,alcanze):
+    def __init__(self, intensidad, x, y, alcanze):
         self.intensidad = intensidad
         self.x = x
         self.y = y
@@ -8,13 +8,13 @@ class luz (object):
     def getAlcanze(self):
         return self.alcanze
     
-    def setAlcanze(self,alcanze):
+    def setAlcanze(self, alcanze):
         self.alcanze = alcanze
 
     def getPosicion(self):
-        return self.x,self.y
+        return self.x, self.y
     
-    def setPosicion(self,x,y):
+    def setPosicion(self, x, y):
         self.x = x
         self.y = y
 
